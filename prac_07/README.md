@@ -6,24 +6,24 @@ It comprehensively covers object-oriented programming, file input/output, data p
 - JCU ID : 14763487
 - Github Link : https://github.com/myoungseo/cp1404-practicals
 
-project_management.py
+## project_management.py
 
-## Project Data Loading
+### Project Data Loading
 Reads tab-separated project data from a default file (e.g., projects.txt) or a user-specified file, and creates a Project class instance for each line.
 
-## Project Saving
+### Project Saving
 Saves the in-memory project objects to a file in tab-separated format, using either a default file or a filename specified by the user.
 
-## Project Display
+### Project Display
 Separates projects into incomplete and complete groups, sorts each group by priority, and prints them.
 
-## Project Filtering
+### Project Filtering
 Accepts a date from the user, filters out projects that start after that date, sorts them in chronological order, and prints the results.
 
-## Project Adding and Updating
+### Project Adding and Updating
 Creates a new Project object from user input and adds it to the list, while also allowing updates to the completion rate or priority of existing projects.
 
-## Menu System
+### Menu System
 Provides various options (Load, Save, Display, Filter, Add, Update, Exit) so the user can choose the desired functionality.
 
 ## Lessons Learned about Clean Code
